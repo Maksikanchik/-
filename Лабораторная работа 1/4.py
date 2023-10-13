@@ -1,0 +1,8 @@
+users = ['user1', 'user2', 'user3', 'user1', 'user4', 'user2']
+slovar = {
+    'Общее количество': 0,
+    'Уникальные посещения': 0
+}
+slovar['Общее количество'] = len(users)
+slovar['Уникальные посещения'] = len(set(users))
+print(slovar)
